@@ -23,18 +23,6 @@
        foreach($result as $valor){
             echo $valor.'<br>';
        }
-
-            // for($i=1;$i<=100;$i++){
-            //     echo $i."\n";
-            //     switch([$i%3==0,$i%5==0]){
-                    
-            //         case [1,0] : echo "Falabella".'<br>'; break;
-            //         case [0,1] : echo "IT".'<br>'; break;
-            //         case [1,1] : echo "Integraciones".'<br>'; break;
-            //         default   : echo $i; break;
-            //     }
-            //     echo "\n";
-            // }
       ?>
         
 </body>
