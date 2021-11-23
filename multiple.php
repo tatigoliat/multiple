@@ -10,7 +10,6 @@ class Multiple
         );
     
         $cant = count($params);
-        $return = false;
         $output = array();
         for ($i = $min; $i <= $max; $i++){
             $aux = $i;
