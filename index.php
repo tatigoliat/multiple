@@ -17,7 +17,7 @@
       </header>
       <?php
 
-       $multiple = new multiple(); // $a es un objeto
+       $multiple = new multiple();
        $result = $multiple->buscaMultiple(1, 100);
 
        foreach($result as $valor){
