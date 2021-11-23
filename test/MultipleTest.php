@@ -7,12 +7,10 @@ class MultipleTest extends TestCase
         require "../multiple.php";
         
         $myClass = new Multiple();
-        $exec = $myClass->buscaMultiple(1, 100);
+        $min =1;
+        $max=100;
+        $exp = $myClass->buscaMultiple($min, $max);
 
-        $exp = array(
-            array(1=>1, 2=>2, 3=>"Falabella")
-        );
-
-        $this->assertEquals($exp, $exec);
+        $this->assertEquals($max, count($exp));
     }
 }
